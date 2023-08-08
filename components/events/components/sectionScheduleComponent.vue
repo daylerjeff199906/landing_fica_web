@@ -8,7 +8,7 @@
           </div>
           <div class="text-5xl sm:text-7xl font-bold">{{ title }}</div>
           <div class="text-base font-semibold">{{ subtitle }}</div>
-          <div><GeneralButtonGeneral label="COMPRAR ENTRADAS" /></div>
+          <div><GeneralButtonGeneral label="COMPRAR ENTRADAS" border-color="#ffffff" /></div>
         </div>
       </div>
       <div class="text-2xl font-roboto font-bold">Eventos</div>

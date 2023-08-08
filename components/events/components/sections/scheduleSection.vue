@@ -24,21 +24,21 @@
   <div class="bg-image">
     <EventsComponentsSectionScheduleComponent
       ref="section1"
-      date="Día Lunes 29"
+      date="Día jueves 21"
       title="GRAN INICIO FESTIVO"
       subtitle="La inauguración explosiva del festival con presentaciones electrizantes que encenderán la noche. No te lo puedes perder."
       :isLeft="false"
     />
     <EventsComponentsSectionScheduleComponent
       ref="section2"
-      date="Día Lunes 29"
+      date="Día viernes 22"
       title="GRAN INICIO FESTIVO"
       subtitle="La inauguración explosiva del festival con presentaciones electrizantes que encenderán la noche. No te lo puedes perder."
       :isLeft="true"
     />
     <EventsComponentsSectionScheduleComponent
       ref="section3"
-      date="Día Lunes 29"
+      date="Día sábado 23"
       title="GRAN INICIO FESTIVO"
       subtitle="La inauguración explosiva del festival con presentaciones electrizantes que encenderán la noche. No te lo puedes perder."
       :isLeft="false"
@@ -62,7 +62,7 @@ export default {
 
 <style scoped>
 .bg-image {
-  background-image: url("/assets/images/artista.png");
+  background-image: url("/assets/images/imgBanners/festival_escenario.jpg");
   background-size: cover;
   object-fit: cover;
   /* background-position: center; Centra la imagen */
