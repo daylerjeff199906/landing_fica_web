@@ -1,26 +1,32 @@
 <template>
-  <div class="relative">
+  <div class="relative h-[920px]">
     <div>
       <img
-        class="h-full max-w-full w-screen max-h-[1536px]"
+        class=" max-w-full w-screen h-[920px] object-cover"
         :src="imageUrl"
         alt="image description"
       />
     </div>
     <div
-      class="absolute bottom-0 left-0 right-0 mb-20 flex items-center justify-center container mx-auto px-6"
+      class="absolute bottom-0 left-0 right-0 mb-20 items-center justify-center container mx-auto px-6 grid grid-cols-4 sm:grid-cols-12"
     >
-      <div v-if="imgActivate">
-        <img src="/assets/images/imageflauta.png" alt="" />
+      <div class="col-span-4 sm:col-span-6">
+        <div v-if="imgActivate">
+          <img src="/assets/images/imageflauta.png" alt="" />
+        </div>
+        <div class="text-left text-white mb-6 mr-8">
+          <h1 class="text-4xl sm:text-7xl font-bold mb-4">{{ title }}</h1>
+          <h3 class="text-base sm:text-2xl font-bold">{{ description }}</h3>
+        </div>
       </div>
-      <div class="text-left text-white mb-6 mr-8">
-        <h1 class="text-6xl font-bold">{{ title }}</h1>
-        <h3 class="text-2xl font-bold">{{ description }}</h3>
-      </div>
-      <div v-if="cardActivate">
-        <GeneralCardBanner 
-        :label-bleft="labelBleft"
-        :label-brigth="labelBrigth"
+
+      <div
+        v-if="cardActivate"
+        class="col-span-4 sm:col-span-6 flex items-center justify-center"
+      >
+        <GeneralCardBanner
+          :label-bleft="labelBleft"
+          :label-brigth="labelBrigth"
         />
       </div>
     </div>
@@ -30,7 +36,21 @@
 <script setup>
 import { defineProps } from "vue";
 
-const { imageUrl, title, description, imgActivate, cardActivate, labelBrigth, labelBleft } = defineProps(
-  ["imageUrl", "title", "description", "imgActivate", "cardActivate","labelBrigth","labelBleft"]
-);
+const {
+  imageUrl,
+  title,
+  description,
+  imgActivate,
+  cardActivate,
+  labelBrigth,
+  labelBleft,
+} = defineProps([
+  "imageUrl",
+  "title",
+  "description",
+  "imgActivate",
+  "cardActivate",
+  "labelBrigth",
+  "labelBleft",
+]);
 </script>

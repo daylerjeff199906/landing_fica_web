@@ -74,7 +74,7 @@
 import { ref, onMounted, onUnmounted } from "vue";
 
 // Fecha objetivo (Ajusta la fecha a la que desees que termine la cuenta regresiva)
-const targetDate = new Date("2023-08-21T23:59:59").getTime();
+const targetDate = new Date("2023-09-21T23:59:59").getTime();
 
 const days = ref("00");
 const hours = ref("00");

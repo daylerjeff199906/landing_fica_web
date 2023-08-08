@@ -1,12 +1,12 @@
 <template>
-  <div class="flex justify-between section-container container mx-auto">
+  <div class="sm:flex justify-between section-container container mx-auto">
     <div>
       <div class="text-3xl font-roboto font-bold">Nuestras presentaciones</div>
       <div class="text-lg font-roboto font-bold">
         Experimenta un festival lleno de emociones y talento excepcional.
       </div>
     </div>
-    <div>
+    <div class="mt-4">
       <GeneralButtonGeneral
         label="Lunes 21"
         @click="scrollToSection('section1')"
@@ -64,9 +64,10 @@ export default {
 <style scoped>
 .bg-image {
   background-image: url("/assets/images/artista.png");
-  background-size: cover; /* Ajusta la imagen al contenedor cubriéndolo */
+  background-size: cover;
+  object-fit: cover;
   /* background-position: center; Centra la imagen */
-  background-attachment: fixed; /* Hace que la imagen de fondo parezca fija */
-  /* Agrega más estilos según tus necesidades */
+  background-attachment: fixed;
+  width: 100%;
 }
 </style>

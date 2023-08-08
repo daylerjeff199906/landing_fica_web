@@ -1,7 +1,7 @@
 <template>
   <nav
-    class="fixed top-0 left-0 right-0 z-10  transition-colors duration-300 bg-black"
-  :class="state.isScrolled ? 'bg-black' : 'bg-opacity-20'"
+    class="fixed top-0 left-0 right-0 z-10 transition-colors duration-300 bg-black"
+    :class="state.isScrolled ? 'bg-black' : 'bg-opacity-20'"
   >
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
@@ -24,7 +24,7 @@
                 v-for="option in menuOptions"
                 :key="option.route"
                 :to="option.route"
-                class="text-white font-bold font-roboto  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base"
+                class="text-white font-bold font-roboto hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base"
                 :aria-current="option.route === $route.path ? 'page' : null"
               >
                 {{ option.name }}

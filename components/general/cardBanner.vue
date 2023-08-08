@@ -12,7 +12,7 @@
       <GeneralButtonGeneral :label="labelBleft" border-color="slate-50" />
       <GeneralButtonGeneral
         :label="labelBrigth"
-        background-color="primary"
+        background-color="bg-primary"
         border-color="border-primary"
         hovercolor="black"
         focus-color="black"
