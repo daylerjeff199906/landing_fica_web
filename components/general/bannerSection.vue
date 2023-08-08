@@ -9,9 +9,9 @@
     </div>
     <div class="sm:section-container container mx-auto">
       <div
-        class="absolute bottom-0  mb-20 items-center justify-center container mx-auto px-6 grid grid-cols-4 sm:grid-cols-12"
+        class="absolute bottom-0 grid grid-cols-4 sm:grid-cols-12 mb-20 items-center justify-center container mx-auto px-4 sm:px-14"
       >
-        <div class="flex col-span-12">
+        <div class="flex col-span-4 sm:col-span-6">
           <div v-if="imgActivate" class="col-span-4">
             <img src="/assets/images/imageflauta.png" alt="" />
           </div>
@@ -20,7 +20,6 @@
             <h3 class="text-base sm:text-2xl font-bold">{{ description }}</h3>
           </div>
         </div>
-
         <div
           v-if="cardActivate"
           class="col-span-4 sm:col-span-6 flex items-center justify-center"

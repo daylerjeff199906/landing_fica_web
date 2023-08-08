@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="fixed top-0 left-0 right-0 z-10 transition-colors duration-300 bg-black"
+    class="fixed top-0 left-0 right-0 z-10 transition-colors duration-300 bg-black px-4 sm:px-0"
     :class="state.isScrolled ? 'bg-black' : 'bg-opacity-20'"
   >
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -33,7 +33,7 @@
           </div>
         </div>
         <div
-          class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
+          class="absolute hidden inset-y-0 right-0 sm:flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
         >
           <button
             type="button"
@@ -65,6 +65,23 @@
               alt=""
             />
           </button>
+        </div>
+        <div class="sm:hidden">
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="#ffffff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
         </div>
       </div>
     </div>
