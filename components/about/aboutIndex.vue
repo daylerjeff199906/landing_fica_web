@@ -7,5 +7,9 @@
      imgActivate="true"
     />
     <AboutComponentsSectionsInfoSection/>
+    <AboutComponentsSectionsTrajectorySection/>
+    <AboutComponentsSectionsMoreHistorySection/>
+    <AboutComponentsSectionsVideoSection/>
+    <AboutComponentsSectionsMoreInfoSection/>
   </div>
 </template>

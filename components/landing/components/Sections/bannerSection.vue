@@ -1,5 +1,5 @@
 <template>
-  <div class="relative min-h-[830px]">
+  <div class=""><div class="relative min-h-[830px]">
     <div class="min-h-[200px]">
       <img
         class="h-auto max-h-[1536px] min-h-[830px] object-cover max-w-full w-screen"
@@ -32,7 +32,7 @@
         />
       </div>
     </div>
-  </div>
+  </div></div>
   <div class="relative">
     <div class="absolute w-full top-1/2 transform -translate-y-1/2 text-center">
       <LandingComponentsTimerComponent />

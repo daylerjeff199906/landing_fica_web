@@ -1,6 +1,6 @@
 <template>
   <div class="section-container">
-    <div class="grid grid-cols-12">
+    <div class="grid grid-cols-4 sm:grid-cols-12">
       <div class="col-span-6">
         <img src="/assets/images/fica.png" alt="" />
       </div>

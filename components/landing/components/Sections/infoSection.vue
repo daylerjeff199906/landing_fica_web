@@ -14,7 +14,11 @@
           música.
         </div>
         <div>
-          <GeneralButtonGeneral label="VER MÁS INFORMACIÓN" />
+          <GeneralButtonGeneral
+            label="VER MÁS INFORMACIÓN"
+            background-color="bg-primary"
+            border-color="bg-primary"
+          />
         </div>
       </div>
       <div class="col-span-6">

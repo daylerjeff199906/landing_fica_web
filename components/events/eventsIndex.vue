@@ -7,7 +7,11 @@
       cardActivate="true"
       labelBleft="EVENTOS"
       labelBrigth="COMPRAR"
-      />
-      <LandingComponentsSectionsArtistsSection/>
+    />
+    <LandingComponentsSectionsArtistsSection />
+    <EventsComponentsSectionsScheduleSection />
+    <EventsComponentsSectionsMoreActivitySection />
+    <EventsComponentsSectionsDownloadBrochure />
+    <EventsComponentsSectionsMoreTopicsSection />
   </div>
 </template>

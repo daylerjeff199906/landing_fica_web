@@ -1,7 +1,7 @@
 <template>
   <nav
-    class="fixed top-0 left-0 right-0 z-10  transition-colors duration-300 bg-black"
-  :class="state.isScrolled ? 'bg-black' : 'bg-opacity-20'"
+    class="fixed top-0 left-0 right-0 z-10 transition-colors duration-300 bg-black px-4 sm:px-0"
+    :class="state.isScrolled ? 'bg-black' : 'bg-opacity-20'"
   >
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
@@ -24,7 +24,7 @@
                 v-for="option in menuOptions"
                 :key="option.route"
                 :to="option.route"
-                class="text-white font-bold font-roboto  hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base"
+                class="text-white font-bold font-roboto hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base"
                 :aria-current="option.route === $route.path ? 'page' : null"
               >
                 {{ option.name }}
@@ -33,7 +33,7 @@
           </div>
         </div>
         <div
-          class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
+          class="absolute hidden inset-y-0 right-0 sm:flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
         >
           <button
             type="button"
@@ -66,7 +66,27 @@
             />
           </button>
         </div>
+        <div class="sm:hidden" @click="toggleMenu">
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="#ffffff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </div>
       </div>
+    </div>
+    <div class="" v-if="isMenuOpen">
+      <LayoutHeaderMenu :close-menu="toggleMenu"/>
     </div>
   </nav>
 </template>
@@ -80,7 +100,7 @@ const menuOptions = [
   { route: "/contact", name: "Únete a nosotros" },
 ];
 
-import { onMounted, onUnmounted, reactive } from "vue";
+import { onMounted, onUnmounted, reactive, ref } from "vue";
 
 const state = reactive({
   isScrolled: false,
@@ -100,4 +120,10 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener("scroll", handleScroll);
 });
+
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
 </script>
