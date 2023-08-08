@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="flex flex-row items-center bg-black w-full h-[760px]">
-      <div class="relative grid grid-cols-4 gap-4 container mx-auto">
+    <div class="flex flex-row items-center bg-black w-full md:h-[760px] py-10">
+      <div class="relative grid grid-cols-2 md:grid-cols-4 gap-4 container mx-auto">
         <LandingComponentsCardSocial
           v-for="(image, index) in imagesArray"
           :key="index"
@@ -10,7 +10,7 @@
         />
       </div>
       <div
-        class="absolute bg-white w-[753px] h-[318px] p-12 m-40 flex flex-col justify-center"
+        class="absolute bg-white md:w-[753px] sm:h-[318px] p-4 sm:p-12 md:m-40 flex flex-col justify-center"
       >
         <div class="text-4xl font-sans font-extrabold mb-6">
           SÍGUENOS EN NUESTRAS REDES SOCIALES
