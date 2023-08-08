@@ -66,7 +66,7 @@
             />
           </button>
         </div>
-        <div class="sm:hidden">
+        <div class="sm:hidden" @click="toggleMenu">
           <svg
             class="w-5 h-5"
             aria-hidden="true"
@@ -86,6 +86,9 @@
       </div>
     </div>
   </nav>
+  <div class="" v-if="isMenuOpen">
+    <LayoutHeaderMenu />
+  </div>
 </template>
 
 <script setup>
@@ -97,7 +100,7 @@ const menuOptions = [
   { route: "/contact", name: "Únete a nosotros" },
 ];
 
-import { onMounted, onUnmounted, reactive } from "vue";
+import { onMounted, onUnmounted, reactive, ref } from "vue";
 
 const state = reactive({
   isScrolled: false,
@@ -117,4 +120,10 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener("scroll", handleScroll);
 });
+
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
 </script>
