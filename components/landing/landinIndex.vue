@@ -6,7 +6,7 @@
     <LandingComponentsSectionsArtistsSection/>
     <LandingComponentsSectionsEventsSection/>
     <LandingComponentsSectionsActivitiesSection/>
-    <!-- <LandingComponentsSectionsBannerSocialSection/> -->
+    <LandingComponentsSectionsBannerSocialSection/>
     <LandingComponentsSectionsSponsorSection/>
   </div>
 </template>

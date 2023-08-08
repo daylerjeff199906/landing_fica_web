@@ -9,5 +9,6 @@
       labelBrigth="COMPRAR"
       />
       <LandingComponentsSectionsArtistsSection/>
+      <EventsComponentsSectionsScheduleSection/>
   </div>
 </template>

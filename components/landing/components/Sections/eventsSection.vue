@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class=" md:h-[792px] bg-black">
+    <div class="bg-black">
       <div class="section-container container mx-auto">
         <div class="text-2xl mb-3 font-roboto font-bold text-slate-50">
           Nuestros eventos
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-12">
-          <div class="col-span-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+          <div class="col-span-7">
             <div class="text-slate-50">
               <img
                 src="/assets/images/esenarioEvento.jpg"
@@ -27,11 +27,18 @@
             </div>
           </div>
           <div
-            class="col-span-4 max-w-md divide-y divide-gray-200 dark:text-white dark:divide-gray-700"
+            class="col-span-5 divide-y divide-gray-200 dark:text-white dark:divide-gray-700"
           >
             <LandingComponentsCardListEvent />
             <LandingComponentsCardListEvent />
             <LandingComponentsCardListEvent />
+            <div class="text-center gap-8 pt-6">
+              <GeneralButtonGeneral label="VER CRONOGRAMA" />
+              <GeneralButtonGeneral
+                label="COMPRAR ENTRADA"
+                border-color="white"
+              />
+            </div>
           </div>
         </div>
       </div>
