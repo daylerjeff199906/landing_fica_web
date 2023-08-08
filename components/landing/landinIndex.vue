@@ -1,0 +1,12 @@
+<template>
+  <div>
+    <LandingComponentsSectionsBannerSection/>
+    <LandingComponentsSectionsInfoSection/>
+    <LandingComponentsSectionsCarouselSection/>
+    <LandingComponentsSectionsArtistsSection/>
+    <LandingComponentsSectionsEventsSection/>
+    <LandingComponentsSectionsActivitiesSection/>
+    <!-- <LandingComponentsSectionsBannerSocialSection/> -->
+    <LandingComponentsSectionsSponsorSection/>
+  </div>
+</template>
