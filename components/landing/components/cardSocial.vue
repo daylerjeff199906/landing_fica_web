@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-auto h-[304px]">
+    <div class="w-auto ">
       <img :src="url" :alt="alt" />
     </div>
   </div>
