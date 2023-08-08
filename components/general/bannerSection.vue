@@ -1,6 +1,6 @@
 <template>
   <div class="relative h-[920px]">
-    <div>
+    <div class="">
       <img
         class="max-w-full w-screen h-[920px] object-cover"
         :src="imageUrl"
@@ -16,7 +16,7 @@
             <img src="/assets/images/imageflauta.png" alt="" />
           </div>
           <div class="text-left text-white mb-6 mr-8 col-span-8">
-            <h1 class="text-4xl sm:text-7xl font-bold mb-4">{{ title }}</h1>
+            <h1 class="text-4xl sm:text-7xl font-bold mb-4 uppercase">{{ title }}</h1>
             <h3 class="text-base sm:text-2xl font-bold">{{ description }}</h3>
           </div>
         </div>
