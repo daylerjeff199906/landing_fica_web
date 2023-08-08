@@ -12,16 +12,18 @@
         </div>
       </div>
       <div class="text-2xl font-roboto font-bold">Eventos</div>
-      <div class="grid grid-cols-4 gap-4 mt-4">
-        <!-- <EventsComponentsCardEvents
+      <div class="overflow-x-auto">
+        <div class="grid grid-cols-4 gap-4 mt-4 w-[100vh] sm:w-full">
+          <!-- <EventsComponentsCardEvents
         v-for="event in events"
         :key="event.id"
         :data="event"
       /> -->
-        <EventsComponentsCardEvents />
-        <EventsComponentsCardEvents />
-        <EventsComponentsCardEvents />
-        <EventsComponentsCardEvents />
+          <EventsComponentsCardEvents />
+          <EventsComponentsCardEvents />
+          <EventsComponentsCardEvents />
+          <EventsComponentsCardEvents />
+        </div>
       </div>
     </div>
   </div>
