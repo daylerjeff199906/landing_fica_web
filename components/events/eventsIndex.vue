@@ -10,6 +10,8 @@
       />
       <LandingComponentsSectionsArtistsSection/>
       <EventsComponentsSectionsScheduleSection/>
-      
+      <EventsComponentsSectionsMoreActivitySection/>
+     <EventsComponentsSectionsDownloadBrochure/>
+     <EventsComponentsSectionsMoreTopicsSection/>  
   </div>
 </template>
