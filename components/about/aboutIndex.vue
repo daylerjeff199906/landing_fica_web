@@ -8,5 +8,7 @@
     />
     <AboutComponentsSectionsInfoSection/>
     <AboutComponentsSectionsTrajectorySection/>
+    <AboutComponentsSectionsMoreHistorySection/>
+    <AboutComponentsSectionsVideoSection/>
   </div>
 </template>
