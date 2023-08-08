@@ -85,10 +85,10 @@
         </div>
       </div>
     </div>
+    <div class="" v-if="isMenuOpen">
+      <LayoutHeaderMenu :close-menu="toggleMenu"/>
+    </div>
   </nav>
-  <div class="" v-if="isMenuOpen">
-    <LayoutHeaderMenu />
-  </div>
 </template>
 
 <script setup>
