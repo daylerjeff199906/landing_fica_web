@@ -5,7 +5,7 @@
         class="grid grid-cols-1 sm:grid-cols-2 gap-4 section-container container mx-auto my-15 text-slate-50"
       >
         <div>
-          <div class="text-[48px] font-black">El legado del FICA</div>
+          <div class="text-4xl font-black">El legado del FICA</div>
           <div class="text-base font-light mb-6">
             "La historia de Pepe Peña y el impacto del festival"
           </div>

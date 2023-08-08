@@ -10,5 +10,6 @@
     <AboutComponentsSectionsTrajectorySection/>
     <AboutComponentsSectionsMoreHistorySection/>
     <AboutComponentsSectionsVideoSection/>
+    <AboutComponentsSectionsMoreInfoSection/>
   </div>
 </template>
