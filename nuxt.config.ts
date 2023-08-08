@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default {
   devtools: { enabled: true },
+  target: "static",
+  router: {
+    base: "/landing_fica_web/",
+  },
   css: [
     "@/assets/css/main.css",
     "@/assets/css/tailwind.css",
@@ -12,7 +16,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-});
+};
 
 // export default {
 //   build: {
