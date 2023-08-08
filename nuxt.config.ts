@@ -12,6 +12,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  // target: "static",
+  // router:{
+  //   base: '/landing_fica_web/'
+  // },
 });
 
 // export default {
