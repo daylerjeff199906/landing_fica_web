@@ -10,5 +10,6 @@
       />
       <LandingComponentsSectionsArtistsSection/>
       <EventsComponentsSectionsScheduleSection/>
+      
   </div>
 </template>

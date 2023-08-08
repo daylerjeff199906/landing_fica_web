@@ -2,7 +2,7 @@
   <div
     :class="`bg-${
       backgroundColor || 'black'
-    } section-container container mx-auto text-slate-50`"
+    } section-container container mx-auto text-slate-50 bg-opacity-60`"
   >
     <div class="grid grid-cols-2 mb-10">
       <div :class="`space-y-4 ${isLeft ? 'col-start-1' : 'col-start-2'}`">
@@ -39,3 +39,15 @@ export default {
   },
 };
 </script>
+
+<!-- <style scoped>
+/* Agrega este estilo para cambiar la opacidad del fondo */
+.bg-opacity-80 {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Cambia el valor al nivel de opacidad deseado */
+}
+</style> -->
