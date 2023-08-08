@@ -9,5 +9,6 @@
       labelBrigth="COMPRAR"
     />
     <ContactUsComponentsSectionsContactSection/>
+    <ContactUsComponentsSectionsFormContactSectioni/>
   </div>
 </template>
