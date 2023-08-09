@@ -1,24 +1,22 @@
 <template>
   <div
-    class="w-fit h-auto sm:h-56 sm:w-auto bg-cyan-950 px-4 py-4 md:px-12 md:py-8 rounded-lg shadow justify-start items-center inline-flex mb-16"
+    class="w-auto h-auto sm:h-56 sm:w-auto bg-cyan-950 px-4 py-4 md:px-12 md:py-8 rounded-lg shadow justify-start items-center inline-flex mb-16"
     style="background-image: url('/assets/images/imgTimer.png')"
   >
     <div
       class="w-auto grid grid-cols-1 md:grid-cols-12 lg:w-[920px] justify-start items-center sm:gap-2.5"
     >
-      <div class="col-span-4 text-left">
-        <span class="text-slate-50 text-base sm:text-4xl font-bold"
-          >Faltan</span
-        >
+      <div class="col-span-4 text-center sm:text-left px-8 sm:p-1">
+        <div class="text-slate-50 text-4xl font-bold mb-4">Faltan</div>
         <div class="text-slate-50 text-base font-normal">
           Experimenta el festival amazónico más intenso y emocionante.
         </div>
       </div>
       <div
-        class="grow col-span-8 shrink basis-0 h-36 justify-between items-center gap-1 sm:gap-8 flex"
+        class="grow col-span-8 h-36 p-16 sm:p-4 justify-between items-center gap-1 lg:gap-8 flex"
       >
         <div
-          class="p-4 rounded-lg flex-col justify-start items-center inline-flex"
+          class="sm:p-4 rounded-lg flex-col justify-start items-center inline-flex"
         >
           <div class="flex-col justify-start items-start gap-2.5 flex">
             <div class="text-white text-4xl sm:text-7xl font-bold">
