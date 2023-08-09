@@ -5,11 +5,11 @@
         <h1 class="text-2xl font-roboto font-bold">Socios y auspiciadores</h1>
         <GeneralButtonTextGeneral label="Ver todos" />
       </div>
-      <div class="grid grid-cols-4 gap-4">
-        <img src="/assets/images/logoEmpresa.jpg" alt="" class="p-8">
-        <img src="/assets/images/logoEmpresa.jpg" alt="" class="p-8">
-        <img src="/assets/images/logoEmpresa.jpg" alt="" class="p-8">
-        <img src="/assets/images/logoEmpresa.jpg" alt="" class="p-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
+        <img src="/assets/images/logoEmpresa.jpg" alt="" class="p-16" />
+        <img src="/assets/images/logoEmpresa.jpg" alt="" class="p-16" />
+        <img src="/assets/images/logoEmpresa.jpg" alt="" class="p-16" />
+        <img src="/assets/images/logoEmpresa.jpg" alt="" class="p-16" />
       </div>
     </div>
   </div>
