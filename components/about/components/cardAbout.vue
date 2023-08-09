@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex gap-2"
+    class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex gap-2 "
   >
     <div>
         <img :src="iconUrl" alt="icon.svg" class="w-24">

@@ -2,14 +2,14 @@
   <div class="bg-image">
     <div class="bg-black bg-opacity-50 py-16">
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 gap-4 section-container container mx-auto my-15 text-slate-50"
+        class="grid grid-cols-1 sm:grid-cols-2 gap-4 section-container container mx-auto my-15 text-slate-50 items-center"
       >
-        <div>
-          <div class="text-4xl font-black">El legado del FICA</div>
+        <div class="">
+          <div class="text-3xl font-black">El legado del FICA</div>
           <div class="text-base font-light mb-6">
             "La historia de Pepe Peña y el impacto del festival"
           </div>
-          <div class="text-base font-bold">
+          <div class="text-base">
             Con Pepe Peña como primer ganador y su emblemático tema "Ribereña",
             el FICA se posicionó como el segundo mejor festival de América, solo
             después de Viña del Mar. A lo largo de sus diez ediciones, el FICA
