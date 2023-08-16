@@ -5,7 +5,7 @@
         class="section-container container mx-auto my-15 text-slate-50 text-center"
       >
         <div>
-          <div class="text-4xl font-black mb-6">
+          <div class="text-3xl font-bold mb-6">
             Revive los mejores momentos del FICA
           </div>
           <div class="w-full px-4 sm:px-24">

@@ -9,7 +9,7 @@
       Desde el 20 de setiembre hasta 23 de setiembre
     </div>
     <div class="">
-      <GeneralButtonGeneral :label="labelBleft" border-color="slate-50" />
+      <GeneralButtonGeneral :label="labelBleft" border-color="slate-50" link="/events" />
       <GeneralButtonGeneral
         :label="labelBrigth"
         background-color="bg-primary"

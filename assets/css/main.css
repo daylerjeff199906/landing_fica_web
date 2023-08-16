@@ -5,7 +5,9 @@
 
 .section-container {
     width: 100%;
-    padding: 16px; 
+    padding: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     @media (min-width: 1080px) {
       padding: 60px; 
     }

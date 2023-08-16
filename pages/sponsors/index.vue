@@ -1,5 +1,5 @@
 <template>
   <div>
-    <ContactUsIndex />
+    <ViewsSponsorsPage />
   </div>
 </template>
