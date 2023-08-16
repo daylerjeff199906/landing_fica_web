@@ -2,7 +2,7 @@
   <div class="sm:flex justify-between section-container container mx-auto">
     <div>
       <div class="text-3xl font-roboto font-bold">Nuestras presentaciones</div>
-      <div class="text-lg font-roboto font-bold">
+      <div class="text-lg font-roboto font-bold ">
         Experimenta un festival lleno de emociones y talento excepcional.
       </div>
     </div>
@@ -28,6 +28,7 @@
       title="GRAN INICIO FESTIVO"
       subtitle="La inauguración explosiva del festival con presentaciones electrizantes que encenderán la noche. No te lo puedes perder."
       :isLeft="false"
+      background-color="rose-500"
     />
     <EventsComponentsSectionScheduleComponent
       ref="section2"
@@ -35,6 +36,7 @@
       title="GRAN INICIO FESTIVO"
       subtitle="La inauguración explosiva del festival con presentaciones electrizantes que encenderán la noche. No te lo puedes perder."
       :isLeft="true"
+      background-color="yellow-400"
     />
     <EventsComponentsSectionScheduleComponent
       ref="section3"
