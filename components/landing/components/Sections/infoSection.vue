@@ -18,6 +18,7 @@
             label="VER MÁS INFORMACIÓN"
             background-color="bg-primary"
             border-color="bg-primary"
+            link="/about"
           />
         </div>
       </div>

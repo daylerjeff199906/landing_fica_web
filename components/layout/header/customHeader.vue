@@ -25,7 +25,7 @@
                 :key="option.route"
                 :to="option.route"
                 :class="{
-                  'text-white font-bold font-roboto hover:bg-lime-600 hover:text-white rounded-md px-3 py-2 text-base': true,
+                  'text-white font-bold font-roboto hover:bg-lime-500 hover:text-white rounded-md px-3 py-2 text-base': true,
                   'bg-fuchsia-500 font-extrabold': option.route === $route.path,
                 }"
                 :aria-current="option.route === $route.path ? 'page' : null"

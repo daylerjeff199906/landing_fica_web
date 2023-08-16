@@ -23,7 +23,10 @@
           <h2 class="text-3xl font-bold font-roboto">Iquitos</h2>
         </div>
         <div class="text-center font-roboto space-x-4">
-          <GeneralButtonGeneral label="VER CRONOGRAMA" />
+          <GeneralButtonGeneral label="VER CRONOGRAMA" 
+          link="/events"
+          hover-color="bg-pink-50"
+          />
           <GeneralButtonGeneral
             label="COMPRAR ENTRADAS"
             background-color="bg-primary"
