@@ -9,11 +9,11 @@
     <!-- Carousel -->
     <div
       id="default-carousel"
-      class="carousel-backdrop w-full"
+      class="carousel-backdrop w-full "
       data-carousel="slide"
     >
       <!-- Carousel wrapper -->
-      <div class="relative h-56 overflow-hidden md:h-[720px] lg:h-[720px]">
+      <div class="relative h-96 overflow-hidden md:h-[720px] lg:h-[720px]">
         <div
           v-for="(image, index) in images"
           :key="index"
@@ -22,7 +22,7 @@
         >
           <img
             :src="image"
-            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            class="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="..."
           />
         </div>

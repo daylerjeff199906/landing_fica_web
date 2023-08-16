@@ -4,7 +4,7 @@
       <div class="col-span-6">
         <img src="/assets/images/fica.png" alt="" />
       </div>
-      <div class="col-span-6">
+      <div class="col-span-6 items-center justify-center sm:mt-10">
         <div class="text-4xl font-bold mb-6">¿Qué es el FICA?</div>
         <div class="text-base">
           Es el evento musical más reconocido en la selva peruana, en el Perú y

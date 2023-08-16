@@ -7,7 +7,7 @@
             <img src="/assets/images/logoCarbonoNeutral.png" />
           </div>
           <div class="text-5xl font-bold">Evento carbono Neutral</div>
-          <div class="text-base font-medium">
+          <div class="text-base">
             Nuestra meta es promover la cultura, el arte y estimular la economía
             local y regional a través de nuestro festival.
           </div>
@@ -17,7 +17,7 @@
             <AboutComponentsCardAbout
               iconUrl="/assets/images/svg/attach_money.png"
               title="Cultural y económico:"
-              description="Nuestra meta es promover la cultura, el arte y estimular la economía local y regional a través de nuestro festival."
+              description="Nuestra meta es promover la cultura, el arte y estimular la economía local y regional a través de nuestro festival y darnos a conocer en el Perú y el mundo."
             />
             <AboutComponentsCardAbout
               iconUrl="/assets/images/svg/Done_outline.png"

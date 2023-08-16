@@ -1,7 +1,7 @@
 <template>
   <NuxtLink :to="link">
     <button
-      :class="`relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden font-roboto text-base font-bold text-slate-50 rounded-lg  ${backgroundColor} border-2 ${borderColor} hover:${hoverColor} focus:${focusColor}`"
+      :class="`relative inline-flex items-center justify-center  p-0.5 mb-2 mr-2 overflow-hidden font-roboto text-base font-bold text-slate-50 rounded-lg  ${backgroundColor} border-2 ${borderColor}  hover:${hoverColor} focus:${focusColor}`"
     >
       <span
         class="relative px-5 py-2.5 transition-all ease-in duration-75 rounded-md group-hover:bg-opacity-0"
@@ -39,7 +39,7 @@ const { label, link, backgroundColor, borderColor, hoverColor, focusColor } =
     hoverColor: {
       type: String,
       required: false,
-      default: "bg-cerisered",
+      default: "bg-rose-700",
     },
     focusColor: {
       type: String,
