@@ -2,8 +2,8 @@
   <div>
     <div class="section-container">
       <div class="text-center mb-6">
-        <div class="text-4xl font-bold">Trayectoria</div>
-        <div class="text-lg font-medium">
+        <div class="text-3xl font-bold font-roboto mb-4">Trayectoria</div>
+        <div class="text-base">
           A lo largo de 10 ediciones: El FICA se convierte en un catalizador
           económico, impulsando el turismo y fortaleciendo la identidad
           amazónica.
@@ -43,7 +43,7 @@
               </li>
             </ol>
           </div>
-          <div class="text-base font-medium">
+          <div class="text-base">
             Impulsado por líderes visionarios: Empresarios destacados, artistas
             talentosos y entusiastas vecinos de Iquitos, liderados por José
             Silfo Alván Del Castillo, ex alcalde de Maynas, dan vida a uno de

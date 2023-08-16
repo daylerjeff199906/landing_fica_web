@@ -3,10 +3,9 @@
     <div
       class="h-fit w-fit flex-col justify-center items-center inline-flex overflow-hidden group"
     >
-      <!-- Colocamos el overlay oscuro dentro del contenedor principal -->
       <div class="relative w-full">
         <img
-          src="/assets/images/artista.png"
+          :src="imageUrl"
           alt=""
           class="h-[420px] w-full transform transition-transform duration-300 group-hover:scale-110"
         />
@@ -19,9 +18,25 @@
       >
         <div class="self-stretch justify-start items-start gap-4 inline-flex">
           <div class="w-1.5 self-stretch bg-lime-600"></div>
-          <div class="w-fit text-gray-50 text-xl font-bold">CARLOS VIVES</div>
+          <div class="w-fit text-gray-50 text-2xl font-bold">{{ title }}</div>
         </div>
       </div>
     </div>
   </button>
 </template>
+<script setup>
+defineProps({
+  imageUrl: {
+    type: String,
+    default: "/assets/images/artista.png",
+  },
+  title: {
+    type: String,
+    default: "Nombre artista",
+  },
+  id: {
+    type: String,
+    required: true,
+  },
+});
+</script>
