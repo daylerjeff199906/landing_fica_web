@@ -24,7 +24,10 @@
                 v-for="option in menuOptions"
                 :key="option.route"
                 :to="option.route"
-                class="text-white font-bold font-roboto hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base"
+                :class="{
+                  'text-white font-bold font-roboto hover:bg-lime-600 hover:text-white rounded-md px-3 py-2 text-base': true,
+                  'bg-fuchsia-500 font-extrabold': option.route === $route.path,
+                }"
                 :aria-current="option.route === $route.path ? 'page' : null"
               >
                 {{ option.name }}
@@ -86,7 +89,7 @@
       </div>
     </div>
     <div class="" v-if="isMenuOpen">
-      <LayoutHeaderMenu :close-menu="toggleMenu"/>
+      <LayoutHeaderMenu :close-menu="toggleMenu" />
     </div>
   </nav>
 </template>
